@@ -1,12 +1,12 @@
 SCHOOL NAME, MASCOT, ABBREVIATION, CONFERENCE, PRIMARY HEX COLOR, SECONDARY HEX COLOR, PRESTIGE, HOME STATE, PIPELINE STATES (separated by .);
 Storrs, (CT) Danes, USTRR, Northeast, A7A249, 000000, 79, CT, CT.MA.RI;
-Villanova, Wildcats, NOVA, Northeast, 00205B, 13B5EA, 90, PA, PA.NY.NJ.DE.MD.DC;
-Rhode Island, Rams, URI, Northeast, 68ABE8, FFFFFF, 56, RI, RI.MA.ME;
-Providence, Friars, PROV, Northeast, 000000, 8A8D8F, 63, RI, RI.MA.ME;
-Seton Hall, Pirates, SETON, Northeast, 004488, A2AAAD, 67, NJ, NJ.NY;
-Hofstra, Pride, HOFS, Northeast, 003591, FDC82F, 37, NY, NY.NJ.PA;
-Georgetown, Hoyas, GTOWN, Northeast, 041E42, 8D817B, 60, DC, DC.MD;
-St. John’s, Red Storm, STJ, Northeast, BA0C2F, A7A8AA, 70, NY, NY.NJ;
+Lower Merion TS, (PA) Supernovas, LMTS, Northeast, 0019FF, 7E46FF, 90, PA, PA;
+RICAMA, (RI) Antelopes, RICAMA, Northeast, A6880B, FFFFFF, 56, RI, RI;
+Rhode Island State, (RI) Fryers, RIS, Northeast, 000000, 8A8D8F, 63, RI, RI;
+Diocesan Hall, (NJ) Seawolves, DIO, Northeast, 006BFF, 000000, 67, NJ, NJ;
+Hamlet, (NY) Bullets, HAM, Northeast, 000000, 5E5E5E, 37, NY, NY;
+District of Columbia, (DC) Drivers, DOC, Northeast, 041E42, 8D817B, 60, DC, DC;
+Queens Catholic, (NY) Storm, STJ, Northeast, 00f4f9, A7A8AA, 70, NY, NY;
 Vermont, Catamounts, VERM, Northeast, 154734, FFC72C, 46, VT, VT.NH;
 Hartford, Hawks, HART, Northeast, 9E1B32, 6C6F70, 54, PA, PA.DE.MD.DC;
 Northeastern, Huskies, NE, Northeast, D41B2C, 000000, 35, MA, MA;
@@ -255,4 +255,3 @@ Sacramento State, Hornets, SACST, Golden, 043927, C4B581, 40, CA, CA;
 Pepperdine, Waves, PEPP, Golden, F58026, 003A72, 32, CA, CA;
 Pacific, Tigers, PAC, Golden, F47820, 231F20, 29, CA, CA;
 Fresno State, Bulldogs, FRES, Golden, DB0032, 002E6D, 65, CA, CA.NV;
-
