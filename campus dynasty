@@ -1,257 +1,513 @@
 SCHOOL NAME, MASCOT, ABBREVIATION, CONFERENCE, PRIMARY HEX COLOR, SECONDARY HEX COLOR, PRESTIGE, HOME STATE, PIPELINE STATES (separated by .);
-FCI Fort Dix, Huskies, FCIFD, Federal, 0000ff, ff0000, 90, NJ, NJ;
-USP Atlanta, Wildcats, USPA, Federal, 669999, FFFFFF, 56, GA, GA;
-Victorville, Rams, VVI, Federal, ff0000, 0099cc, 79, CA, CA;
-FCI Petersburg, Friars, FCIP, Federal, cc6600, 003366, 63, VA, VA;
-Hazelton, Pirates, HAZ, Federal, 339933, 8c8c8c, 67, WV, WV;
-FCI Forrest City, Pride, FCIFC, Federal, 003300, 666633, 37, AR, AR;
-Beaumont, Hoyas, BEAU, Federal, 003366, ffffff, 60, TX, TX;
-MDC Brooklyn, Red Storm, MDCB, Federal, 333333, 990000, 70, NY, NY;
-ADX Florence, Catamounts, ADXF, Federal, 000000, cc9900, 46, CO, CO;
-USP McCreary, Hawks, USPMC, Federal, e64d00, 336699, 54, KY, KY;
-FCI Elkton, Huskies, FCIE, Federal, 660033, ffffff, 52, OH, OH;
-MDC Guaynabo, Sharks, MDCG, Federal, ffcd00, ffffff, 35, FL, FL;
-Coleman, Monarchs, COLE, Federal, 336600, 333399, 40, FL, FL;
-FCI Terminal Island, Hawks, USPAI, Federal, 1b1b4b, 3333ff, 57, CA, CA;
-FCI Butner, Owls, FCIB, Federal, cc3300, ffffff, 65, NC, NC;
-Yazoo City, Bulls, YAZOO, Federal, 666666, FFFFFF, 43, MS, MS;
-Estelle Unit, Hurricanes, E2U, Texas, cc3300, ff9900, 75, TX, TX;
-Polunsky Unit, Eagles, TLU, Texas, 7EBDC3, 99C75B, 58, TX, TX;
-Beto Unit, Seminoles, BU, Texas, 006666, 99ccff, 69, TX, TX;
-Coffield Unit, Tigers, COU, Texas, 007399, adad85, 95, TX, TX;
-Michael Unit, Hokies, MIU, Texas, 3333cc, cccccc, 71, TX, TX;
-Telford Unit, Panthers, PITT, Texas, 4d4d4d, 999999, 57, TX, TX;
-Stiles Unit, Cavaliers, UVA, Texas, e63900, 009999, 80, TX, TX;
-Allred Unit, Orange, SYR, Texas, 800000, cc9900, 89, TX, TX;
-Clements Unit, Yellow Jackets, GTECH, Texas, 4a4e69, cc9900, 63, TX, TX;
-Hughes Unit, Cardinals, LOU, Texas, 333399, 000000, 82, TX, TX;
-Robertson Unit, Demon Deacons, WAKE, Texas, B3A369, 808080, 70, TX, TX;
-Memorial Unit, Blue Devils, DUKE, Texas, 003300, FFFFFF, 61, TX, TX;
-Ellis Unit, Tar Heels, UNC, Texas, ff9933, FFFFFF, 76, TX, TX;
-Huntsville Unit, Wolfpack, NCST, Texas, cc2900, ffffff, 95, TX, TX;
-Wainwright Unit, Rams, VCU, Texas, 666633, FB8D19, 65, TX, TX;
-Ferguson Unit, Wildcats, DAV, Texas, 333300, 000000, 54, TX, TX;
-SATF, Fighting Illini, ILL, California, e6b800, cc0000, 71, IL, IL;
-Soledad Correctional, Wildcats, NWEST, California, c68c53, 66b3ff, 61, IL, IL.WI;
-Avenal State, Boilermakers, PUR, California, 7BAFD4, FFFFFF, 80, IN, IN;
-Wasco State, Hoosiers, IU, California, 5c6f0e, FB8D19, 88, IN, IN;
-California CC, Spartans, MSU, California, 403d39, eb5e28, 77, MI, MI;
-Sierra Conservation, Wolverines, MICH, California, 00274C, FFCB05, 85, MI, MI.IN;
-Mule Creek State, Badgers, WIS, California, BF2F37, F5851F, 70, WI, WI.IL.MN;
-North Kern State, Gophers, MINN, California, 418FDE, 006747, 58, MN, MN.ND.SD;
-San Quentin State, Huskers, NEB, California, BF2E1A, 231F20, 72, NE, NE.IA;
-Cal State Solano, Team, OSU, California, 275D38, 333333, 60, OH, OH;
-Cal Men’s Colony, Fighting Irish, NDU, California, 3939ac, 996633, 46, IN, IN.MI.IL;
-Folsom State, Scarlet Knights, RUT, California, 2F4857, BC9B6A, 76, NJ, NJ;
-Pelican Bay State, Hawkeyes, IOWA, California, FFCD00, 7BAFD4, 82, IA, IA;
-Cal State Los Angeles, Lions, PSU, California, 686963, 424b54, 68, PA, PA.OH;
-Cal State Corcoran, Eagles, MARQ, California, 778ba5, ffffff, 74, WI, WI;
-Kern Valley State, Terrapins, MARY, California, 0039A6, FFC20E, 56, MD, MD.DE.DC;
-High Desert State CA, Blue Raiders, MTSU, Pacific, 993333, 003366, 72, TN, TN;
-Ely State, Billikens, SLU, Pacific, 006600, F47820, 49, MO, MO.IL;
-Lovelock CC, Flyers, DAYT, Pacific, 1D455E, 561d5e, 62, OH, OH;
-Salinas Valley State, Bulldogs, BUT, Pacific, e65c00, cc0000, 70, IN, IN;
-Ironwood State, Bluejays, CRE, Pacific, F58026, 003A72, 69, NE, NE;
-Pleasant Valley State, Tigers, MEM, Pacific, 4B4237, D5A021, 51, TN, TN.KY;
-Halawa Correctional, Crusaders, VAL, Pacific, 6699ff, 381E0E, 39, IN, IN;
-NNCC & SCC, Musketeers, XAV, Pacific, A5C882, 000000, 52, OH, OH.KY;
-Southern Desert CC, Hilltoppers, WKU, Pacific, A41034, ffffff, 56, KY, KY.TN;
-Deer Ridge CI, Bearcats, CINCY, Pacific, 5B70A4, 5BA48F, 54, OH, OH.KY;
-Coffee Creek CF, Shockers, WSU, Pacific, A47449, 18100a, 71, KS, NE.KS;
-Oregon State, Ramblers, LOY, Pacific, 00cc00, e6e6e6, 78, IL, IL;
-Two Rivers CI, Blue Demons, DEP, Pacific, 0099cc, fdba21, 42, IL, IL;
-Snake River CI, Braves, BRAD, Pacific, 1a75ff, ffffff, 33, IL, IL;
-Washington State, Thundering Herd, MARSH, Pacific, 00296b, FECB00, 79, WV, WV.PA;
-High Desert State NV, Sycamores, INST, Pacific, EED971, ffa351, 57, IN, IN;
-Union CI, Bears, BAY, South Atlantic, 252627, 564E58, 65, TX, TX;
-Florida State, Cyclones, IAST, South Atlantic, 336699, cc6600, 93, IA, IA;
-Cross City CI, Jayhawks, KU, South Atlantic, 005580, ffcc00, 73, KS, KS.MO;
-Everglades CI, Wildcats, KSU, South Atlantic, 006600, D1D1D1, 76, KS, KS;
-Blackwater River CF, Sooners, OU, South Atlantic, 000066, FDF9D8, 73, OK, OK.TX;
-South Bay CF, Cowboys, OKSU, South Atlantic, 999999, 000000, 70, OK, OK;
-Coffee CF, Horned Frogs, TCU, South Atlantic, 660033, A3A9AC, 69, TX, TX;
-Wheeler CF, Longhorns, TEX, South Atlantic, 5880b3, 2F4857, 72, TX, TX.OK;
-Georgia DCSP, Red Raiders, TTU, South Atlantic, 33ccff, 000000, 78, TX, TX;
-Georgia State, Mountaineers, WVU, South Atlantic, ffcc00, 001a33, 84, WV, WV.VA;
-Central, Lumberjacks, SFA, South Atlantic, ff9900, 000000, 46, TX, TX.NM;
-Brown Creek CI, Golden Hurricane, TULSA, South Atlantic, 336600, 000000, 52, OK, OK;
-Broad River CI, Cougars, HOU, South Atlantic, cc4400, FFFFFF, 74, TX, TX;
-Lanesboro CI, Mustangs, SMU, South Atlantic, 6699ff, E03A3E, 65, TX, TX;
-Tabor CI, Ragin Cajuns, ULL, South Atlantic, cc0000, F18C21, 52, LA, LA;
-Lee CI, Bulldogs, LTU, South Atlantic, 003366, cc3300, 43, LA, LA;
-Attica CF, Ducks, ORE, Atlantic, 862d2d, 2d5986, 82, OR, OR;
-Auburn CF, Beavers, OSU, Atlantic, 4B2E83, B7A57A, 60, OR, OR;
-Clinton CF, Buffaloes, COL, Atlantic, e6ac00, 000000, 64, CO, CO;
-Elmira CF, Utes, UTAH, Atlantic, 568EA3, 826251, 70, UT, UT.WY.ID;
-Fishkill CF, Wildcats, ZONA, Atlantic, 004d00, 732626, 90, AZ, AZ;
-Five Points CF, Sun Devils, ASU, Atlantic, b30000, FFC627, 67, AZ, AZ;
-Green Haven CF, Golden Bears, CAL, Atlantic, 00b33c, a3a375, 65, CA, CA;
-Mid-State CF, Bruins, UCLA, Atlantic, 669900, 000000, 80, CA, CA.HI;
-Sing Sing CF, Trojans, USC, Atlantic, 98b3b3, 67e4e4, 75, CA, CA.HI.AK;
-Wyoming CF, Cardinal, STAN, Atlantic, 26d9d9, ffffff, 61, CA, CA.HI;
-Bayside State, Huskies, UW, Atlantic, 53c68c, a6a6a6, 73, WA, WA.AK;
-New Jersey State, Cougars, WSU, Atlantic, 0033cc, ffcd00, 55, WA, WA.AK;
-Northern State, Aztecs, SDSU, Atlantic, 3399ff, 000000, 57, CA, CA;
-South Woods State, Warriors, HAW, Atlantic, ffdb4d, cc9900, 49, HI, HI;
-Rhode Island State, Bulldogs, GONZ, Atlantic, 3E6680, ffffff, 87, WA, WA.AK;
-Sussex State, Gaels, STMAR, Atlantic, 97c8f0, 00297b, 60, CA, CA;
-Florida, Gators, UF, Midwest, 0021A5, FA4616, 78, FL, FL;
-Georgia, Bulldogs, UGA, Midwest, BA0C2F, 000000, 64, GA, GA;
-Kentucky, Wildcats, UK, Midwest, 0033A0, FFFFFF, 94, KY, KY.TN;
-Missouri, Tigers, MIZZOU, Midwest, F1B82D, 000000, 70, MO, MO;
-South Carolina, Gamecocks, SC, Midwest, 73000A, 000000, 69, SC, SC;
-Tennessee, Volunteers, TENN, Midwest, FF8200, FFFFFF, 87, TN, TN;
-Vanderbilt, Commodores, VANDY, Midwest, 866D4B, 000000, 73, TN, TN;
-Alabama, Crimson Tide, BAMA, Midwest, 9E1B32, 828A8F, 67, AL, AL.MS;
-Arkansas, Razorbacks, ARK, Midwest, 9D2235, FFFFFF, 61, AR, AR.MO;
-Auburn, Tigers, AUB, Midwest, 0C2340, E87722, 75, AL, AL.MS;
-Louisiana State, Tigers, LSU, Midwest, 461D7C, FDD023, 77, LA, LA.MS;
-Ole Miss, Rebels, MISS, Midwest, 13294B, C8102E, 60, MS, MS.AL;
-Mississippi State, Bulldogs, MSST, Midwest, 660000, FFFFFF, 62, MS, MS.AL.LA;
-Texas A&M, Aggies, TAMU, Midwest, 500000, FFFFFF, 73, TX, TX;
-South Florida, Bulls, USF, Midwest, 006747, CFC493, 46, FL, FL;
-Central Florida, Knights, UCF, Midwest, BA9B37, 000000, 52, FL, FL;
-Boise State, Broncos, BOISE, Mountain, 0033A0, D64309, 53, ID, ID.MT;
-Air Force, Falcons, AF, Mountain, 003087, 8A8D8F, 39, CO, CO.SD.ND;
-Colorado State, Rams, COST, Mountain, 1E4D2B, C8C372, 58, CO, CO.WY;
-Nevada, Wolfpack, NEV, Mountain, 003366, 807F84, 78, NV, NV.ID.UT;
-UNLV, Rebels, UNLV, Mountain, B10202, 666666, 72, NV, NV.ID.UT;
-San Jose State, Spartans, SJSU, Mountain, 0055A2, E5A823, 25, CA, CA;
-Utah State, Aggies, UTST, Mountain, 0F2439, 9D968D, 65, UT, UT.ID.WY;
-Wyoming, Cowboys, WYOM, Mountain, FFC425, 492F24, 41, WY, WY.ND.SD.ID;
-Brigham Young, Cougars, BYU, Mountain, 002255, C5AF7D, 60, UT, UT.ID.WY;
-Weber State, Wildcats, WBST, Mountain, 492365, 575047, 48, UT, UT.ID.WY;
-Eastern Washington, Eagles, EWU, Mountain, A10022, FFFFFF, 38, WA, WA;
-Seattle, RedHawks, SEA, Mountain, BF2E1A, 231F20, 27, WA, WA;
-Portland State, Vikings, PORST, Mountain, 154734, A5ACAF, 34, OR, OR;
-Utah Valley, Wolverines, UVU, Mountain, 275D38, 000000, 46, UT, UT;
-Denver, Pioneers, DEN, Mountain, 98002E, AA976C, 33, CO, CO;
-Northern Colorado, Bears, NCO, Mountain, 013C65, F6B000, 40, CO, CO;
-Drake, Bulldogs, DRAKE, Plains, 004477, 999999, 50, IA, IA.NE;
-Omaha, Mavericks, OMA, Plains, D71920, 636568, 32, NE, NE;
-Idaho, Vandals, IDAHO, Plains, B3A369, 808080, 44, ID, ID.WY;
-Idaho State, Bengals, IDST, Plains, FF8400, 000000, 27, ID, ID.WY;
-Missouri State, Bears, MOST, Plains, 5E0009, 000000, 49, MO, MO;
-Missouri-KC, Kangaroos, UMKC, Plains, 005486, FFD204, 42, MO, MO.KS;
-North Dakota, Fighting Hawks, ND, Plains, 0A5640, FFC72A, 26, ND, ND.SD.MT;
-North Dakota State, Bison, NDSU, Plains, 0A5640, FFC72A, 38, ND, ND.SD.MT;
-Montana, Grizzlies, MONT, Plains, 5E001D, 8C8E90, 47, MT, MT.ND.SD;
-Montana State, Bobcats, MTST, Plains, 00205B, B9975B, 34, MT, MT;
-South Dakota, Coyotes, SD, Plains, CD1241, 231F20, 35, SD, SD.ND;
-South Dakota State, Jackrabbits, SDST, Plains, 0033A0, FFD100, 56, SD, SD.ND.MT;
-Northern Illinois, Huskies, NIU, Plains, BA0C2F, 8A8D8F, 36, IL, IL;
-Southern Illinois, Salukis, SIU, Plains, 720000, FFFFFF, 39, IL, IL;
-Northern Iowa, Panthers, NIOWA, Plains, 4B116F, FFCC00, 53, IA, IA;
-Illinois State, Redbirds, ILST, Plains, CE1126, F9DD16, 43, IL, IL;
-Ohio, Bobcats, OHIO, Lakes, 00694E, CDA077, 51, OH, OH;
-Cleveland State, Vikings, CLE, Lakes, 006747, 000000, 43, OH, OH;
-Bowling Green, Falcons, BG, Lakes, FE5000, 4F2C1D, 45, OH, OH;
-Miami (OH), RedHawks, MIAOH, Lakes, B61E2E, 000000, 39, OH, OH;
-Central Michigan, Chippewas, CMU, Lakes, 6A0032, FFC82E, 35, MI, MI;
-Detroit-Mercy, Titans, MERCY, Lakes, A6093D, 002D72, 36, MI, MI;
-Eastern Michigan, Eagles, EMU, Lakes, 006633, 000000, 30, MI, MI;
-Ball State, Cardinals, BALL, Lakes, BA0C2F, 000000, 27, IN, IN;
-Purdue Fort Wayne, Mastadons, IPFW, Lakes, 002F6C, 63666A, 31, IN, IN;
-Western Michigan, Broncos, WMU, Lakes, 6C4023, B5A167, 35, MI, MI;
-Toledo, Rockets, TOL, Lakes, 15397F, FFDA00, 46, OH, OH;
-Wright State, Raiders, WRIGHT, Lakes, 026937, CEA052, 47, OH, OH;
-Duquesne, Dukes, DUQ, Lakes, 041E42, BA0C2F, 40, PA, PA.OH;
-Robert Morris, Colonials, RM, Lakes, 14234B, A6192E, 34, PA, PA;
-Akron, Zips, AKRON, Lakes, 041E42, A89968, 56, OH, OH;
-Oakland, Golden Grizzlies, OAK, Lakes, B59A57, 000000, 41, MI, MI;
-East Tennessee State, Buccaneers, ETSU, Appalachian, 041E42, FFC72C, 45, TN, TN.NC.SC;
-Murray State, Racers, MURR, Appalachian, 002144, ECAC00, 58, KY, KY;
-Lipscomb, Bisons, LIPS, Appalachian, 331E54, F4AA00, 56, TN, TN;
-Belmont, Bruins, BEL, Appalachian, 002469, C9262D, 50, TN, TN;
-George Mason, Patriots, GMU, Appalachian, 006633, FFCC33, 46, VA, VA.DC;
-Liberty, Flames, LIB, Appalachian, 990000, 0A254E, 43, VA, VA;
-Radford, Highlanders, RAD, Appalachian, C2011B, 808285, 40, VA, VA;
-Longwood, Lancers, LONG, Appalachian, 002147, A2A4A3, 29, VA, VA;
-Delaware, Blue Hens, DU, Appalachian, 00539F, FFD200, 33, DE, DE.MD.DC;
-William & Mary, Tribe, W&M, Appalachian, 115740, B9975B, 40, VA, VA;
-James Madison, Dukes, JMU, Appalachian, 450084, CBB677, 34, VA, VA;
-Northern Kentucky, Norse, NKU, Appalachian, FFC72C, 000000, 36, KY, KY;
-Austin Peay, Governors, APEAY, Appalachian, BA0C2F, 000000, 31, TN, TN;
-Lehigh, Mountain Hawks, LEH, Appalachian, 833921, BB9959, 39, PA, PA;
-Richmond, Spiders, RICH, Appalachian, 000066, 990000, 43, VA, VA;
-Loyola (MD), Greyhounds, LOYMD, Appalachian, 016540, DCDCDE, 35, MD, MD.DE;
-UMBC, Retrievers, UMBC, Patriot, FFC20E, 000000, 33, MD, MD.DC;
-Navy, Midshipmen, NAVY, Patriot, 131630, FCBA29, 36, MD, MD.DC;
-UMass-Lowell, River Hawks, MALOW, Patriot, 003DA5, C8102E, 39, MA, CT.MA;
-Maine, Black Bears, ME, Patriot, 003263, B0D7FF, 37, ME, ME;
-Army, Knights, ARMY, Patriot, D4BF91, B2B4B3, 41, NY, NY;
-Norfolk State, Spartans, NORST, Patriot, 007A53, F3D03E, 47, VA, VA;
-New Hampshire, Wildcats, NH, Patriot, 041E42, BBBCBC, 29, NH, NH.VT;
-Massachusetts, Minutemen, UMASS, Patriot, 971B2F, 572932, 36, MA, MA;
-Harvard, Crimson, HARV, Patriot, A41034, 000000, 53, MA, MA.RI;
-Pennsylvania, Quakers, PENN, Patriot, 011F5B, 990000, 58, PA, PA.DE.MD.DC;
-Yale, Bulldogs, YALE, Patriot, 00356B, FFFFFF, 51, CT, CT.MA;
-Princeton, Tigers,PRINCE, Patriot, FF671F, 000000, 48, NJ, NJ;
-Cornell, Big Red, CORN, Patriot, B31B1B, 5E3920, 42, NY, NY;
-Brown, Bears, BROWN, Patriot, 4E3629, 7C2529, 37, RI, RI.CT;
-Dartmouth, Big Green, DART, Patriot, 046A38, 000000, 39, NH, NH;
-Columbia, Lions, COL, Patriot, 003865, 9BCBEB, 40, NY, NY.NJ;
-Monmouth, Hawks, MONM, Empire, 041E42, 53565A, 30, NJ, NJ;
-Stony Brook, Seawolves, SB, Empire, 990000, 16243E, 41, NY, NY;
-St. Bonaventure, Bonnies, STBON, Empire, 54261A, FDB726, 50, NY, NY;
-Fordham, Rams, FORD, Empire, 860038, FFFFFF, 46, NY, NY;
-NJIT, Highlanders, NJIT, Empire, D22630, 071D49, 45, NJ, NJ;
-Rider, Broncs, RIDER, Empire, 981E32, 6C6F70, 40, NJ, NJ;
-Iona, Gaels, IONA, Empire, 6F2C3F, F2A900, 42, NY, NY;
-St. Peter’s, Peacocks, STPET, Empire, 003C71, 0072CE, 28, NJ, NJ;
-St. Francis, Terriers, STFRA, Empire, 0038A8, CE1126, 33, NY, NY;
-Colgate, Raiders, COLG, Empire, 821019, E10028, 38, NY, NY;
-Siena, Saints, SIENA, Empire, FFC72C, 006747, 31, NY, NY;
-Manhattan, Jaspers, MANH, Empire, 041E42, 53565A, 30, NJ, NJ;
-Marist, Red Foxes, MAR, Empire, C8102E, B2B2B2, 35, NY, NY;
-Niagara, Purple Eagles, NIA, Empire, 582C83, 000000, 34, NY, NY;
-Wagner, Seahawks, WAG, Empire, 00483A, BABCBE, 25, NY, NY;
-Fairleigh Dickinson, Knights, FDU, Empire, 004898, B00C23, 39, NJ, NJ;
-Florida Gulf Coast, Eagles, FGCU, Gulf, 007749, 002D72, 58, FL, FL;
-Southern Mississippi, Golden Eagles, USM, Gulf, FFAB00, 000000, 51, MS, MS;
-Florida Atlantic, Owls, FAU, Gulf, 003366, CC0000, 48, FL, FL;
-Jacksonville State, Gamecocks, JACST, Gulf, E31937, FFFFFF, 41, AL, AL;
-Nicholls State, Colonels, NICH, Gulf, A6192E, 7C878E, 40, LA, LA;
-Bethune-Cookman, Wildcats, BETH, Gulf, 841B35, FEB65F, 34, FL, FL;
-Georgia State, Panthers, GAST, Gulf, 0039A6, C60C30, 32, GA, GA;
-Tulane, Green Wave, TUL, Gulf, 006747, 418FDE, 45, LA, LA;
-Wofford, Terriers, WOFF, Gulf, FFD700, 000000, 62, SC, SC;
-Furman, Paladins, FUR, Gulf, 582C83, FFFFFF, 57, SC, SC;
-North Carolina A&T, Aggies, NCA&T, Gulf, 004684, FDB927, 41, NC, NC;
-UNC Greensboro, Spartans, UNCG, Gulf, 0F2044, FFB71B, 46, NC, NC;
-Charleston, Cougars, CLSTN, Gulf, 76232F, 84754E, 40, SC, SC;
-Winthrop, Eagles, WIN, Gulf, 660000, F0B323, 37, SC, SC;
-Campbell, Fighting Camels, CAMP, Gulf, EA7125, 1E252B, 38, NC, NC;
-Gardner-Webb, Bulldogs, GARD, Gulf, BF2F37, F5851F, 30, NC, NC;
-North Texas, Mean Green, NORTX, Southwest, 00853E, 000000, 51, TX, TX;
-UTSA, Roadrunners, UTSA, Southwest, F15A22, 0C2340, 46, TX, TX;
-Texas Southern, Tigers, TXSO, Southwest, 501214, 8D734A, 35, TX, TX;
-Sam Houston State, Bearkats, SHST, Southwest, FE5000, 012169, 36, TX, TX;
-Lamar, Cardinals, LAMAR, Southwest, D50032, FFFFFF, 32, TX, TX;
-Texas State, Bobcats, TXST, Southwest, 501214, 6A5638, 40, TX, TX;
-UT Arlington, Mavericks, UTXA, Southwest, F58025, 0064B1, 46, TX, TX;
-Grand Canyon, Antelopes, GCU, Southwest, 522398, 000000, 54, AZ, AZ;
-Rice, Owls, RICE, Southwest, 00205B, C1C6C8, 43, TX, TX;
-Southern Utah, Thunderbirds, SUU, Southwest, D12947, 050607, 45, UT, UT.AZ;
-Northern Arizona, Lumberjacks, NAU, Southwest, 003976, FFD51F, 37, AZ, UT.AZ;
-Oral Roberts, Golden Eagles, ORU, Southwest, 002E70, D39B16, 29, OK, OK;
-Prairie View A&M, Panthers, PVA&M, Southwest, 5A185C, FFBD29, 42, TX, TX;
-Arkansas State, Red Wolves, AKST, Southwest, ED1B2E, 231F20, 30, AR, AR;
-New Mexico State, Aggies, NMSU, Southwest, 861F41, 97999B, 62, NM, NM.AZ;
-New Mexico, Lobos, NMU, Southwest, BA0C2F, A7A8AA, 56, NM, NM.AZ;
-Loyola Marymount, Lions, LMU, Golden, B62B3A, 00447C, 46, CA, CA;
-UC Irvine, Anteaters, UCIR, Golden, 0C2340, FFC72C, 50, CA, CA;
-UC Santa Barbara, Gauchos, UCSB, Golden, 003660, FEBC11, 51, CA, CA;
-UC Davis, Aggies, UCD, Golden, 002855, B3A369, 43, CA, CA;
-UC Riverside, Highlanders, UCR, Golden, 2D6CC0, F1AB00, 38, CA, CA;
-Cal State Northridge, Matadors, CSN, Golden, CE1126, D1CEC6, 35, CA, CA;
-Cal Poly, Mustangs, CAPOL, Golden, 003831, B38F4F, 31, CA, CA;
-Cal State Fullerton, Titans, CSF, Golden, 00274C, DC8218, 34, CA, CA;
-Long Beach State, 49ers, LBSU, Golden, FFC72A, 000000, 57, CA, CA;
-San Diego, Toreros, SD, Golden, 002868, 84BCE8, 48, CA, CA;
-San Francisco, Dons, SF, Golden, FDBB30, 00543C, 58, CA, CA;
-California Baptist, Lancers, CABAP, Golden, 002554, A37400, 28, CA, CA;
-Sacramento State, Hornets, SACST, Golden, 043927, C4B581, 40, CA, CA;
-Pepperdine, Waves, PEPP, Golden, F58026, 003A72, 32, CA, CA;
-Pacific, Tigers, PAC, Golden, F47820, 231F20, 29, CA, CA;
-Fresno State, Bulldogs, FRES, Golden, DB0032, 002E6D, 65, CA, CA.NV;
+
+Baylor, Bears, BAY, Big-12, 003015, FECB00, 88, TX, TX;
+
+Iowa State, Cyclones, IAST, Big-12, C8102E, F1BE48, 83, IA, IA;
+
+Kansas, Jayhawks, KU, Big-12, 0051BA, E8000D, 93, KS, KS.MO;
+
+Kansas State, Wildcats, KSU, Big-12, 512888, D1D1D1, 76, KS, KS;
+
+Oklahoma, Sooners, OU, Big-12, 841617, FDF9D8, 83, OK, OK.TX;
+
+Oklahoma State, Cowboys, OKSU, Big-12, FF7300, 000000, 79, OK, OK;
+
+Texas Christian, Horned Frogs, TCU, Big-12, 4D1979, A3A9AC, 75, TX, TX;
+
+Texas, Longhorns, TEX, Big-12, BF5700, 333F48, 87, TX, TX.OK;
+
+Texas Tech, Red Raiders, TTU, Big-12, CC0000, 000000, 82, TX, TX;
+
+West Virginia, Mountaineers, WVU, Big-12, 002855, EAAA00, 81, WV, WV.VA;
+
+North Texas, Mean Green, NORTX, Big-12, 00853E, 000000, 36, TX, TX;
+
+UTEP, Miners, UTEP, Big-12, D64309, 0034A0, 51, TX, TX.NM;
+
+Stephen F. Austin, Lumberjacks, SFA, Big-12, 330066, B3B3B3, 56, TX, TX.NM;
+
+UT Arlington, Mavericks, UTXA, Big-12, F58025, 0064B1, 46, TX, TX;
+
+Chattanooga, Mocs, CHAT, Big-12, 00386B, E0AA0F, 40, TN, TN;
+
+Sam Houston State, Bearkats, SHST, Big-12, FE5000, 012169, 46, TX, TX;
+
+Florida, Gators, UF, SEC, 0021A5, FA4616, 86, FL, FL;
+
+Georgia, Bulldogs, UGA, SEC, BA0C2F, 000000, 65, GA, GA;
+
+Central Florida, Knights, UCF, SEC, BA9B37, 000000, 55, FL, FL;
+
+Kentucky, Wildcats, UK, SEC, 0033A0, FFFFFF, 94, KY, KY.TN;
+
+Missouri, Tigers, MIZZOU, SEC, F1B82D, 000000, 74, MO, MO;
+
+South Carolina, Gamecocks, SC, SEC, 73000A, 000000, 67, SC, SC;
+
+Tennessee, Volunteers, TENN, SEC, FF8200, FFFFFF, 87, TN, TN;
+
+Vanderbilt, Commodores, VANDY, SEC, 866D4B, 000000, 73, TN, TN;
+
+Alabama, Crimson Tide, BAMA, SEC, 9E1B32, 828A8F, 85, AL, AL.MS;
+
+Arkansas, Razorbacks, ARK, SEC, 9D2235, FFFFFF, 81, AR, AR.MO;
+
+Auburn, Tigers, AUB, SEC, 0C2340, E87722, 75, AL, AL.MS;
+
+Louisiana State, Tigers, LSU, SEC, 461D7C, FDD023, 79, LA, LA.MS;
+
+Ole Miss, Rebels, MISS, SEC, 13294B, C8102E, 73, MS, MS.AL;
+
+Mississippi State, Bulldogs, MSST, SEC, 660000, FFFFFF, 75, MS, MS.AL.LA;
+
+Texas A&M, Aggies, TAMU, SEC, 500000, FFFFFF, 72, TX, TX;
+
+East Tennessee State, Buccaneers, ETSU, SEC, 041E42, FFC72C, 49, TN, TN.NC.SC;
+
+Illinois, Fighting Illini, ILL, BIG-10, E84A27, 13294B, 84, IL, IL;
+
+Northwestern, Wildcats, NWEST, BIG-10, 4E2A84, FFFFFF, 61, IL, IL.WI;
+
+Purdue, Boilermakers, PUR, BIG-10, C28E0E, 000000, 78, IN, IN;
+
+Indiana, Hoosiers, IU, BIG-10, 990000, EEEDEB, 79, IN, IN;
+
+Michigan State, Spartans, MSU, BIG-10, 18453B, FFFFFF, 91, MI, MI;
+
+Michigan, Wolverines, MICH, BIG-10, 00274C, FFCB05, 85, MI, MI.IN;
+
+Wisconsin, Badgers, WIS, BIG-10, C5050C, FFFFFF, 82, WI, WI.IL.MN;
+
+Minnesota, Gophers, MINN, BIG-10, 7A0019, FFCC33, 75, MN, MN.ND.SD;
+
+Nebraska, Huskers, NEB, BIG-10, E41C38, FFFFFF, 66, NE, NE.IA;
+
+Ohio State, Buckeyes, OSU, BIG-10, BB0000, 666666, 86, OH, OH;
+
+Rutgers, Scarlet Knights, RUT, BIG-10, CC0033, 5F6A72, 60, NJ, NJ;
+
+Iowa, Hawkeyes, IOWA, BIG-10, FFCD00, 000000, 80, IA, IA;
+
+Penn State, Lions, PSU, BIG-10, 093162, FFFFFF, 63, PA, PA.OH;
+
+Maryland, Terrapins, MARY, BIG-10, E03A3E, FFD520, 80, MD, MD.DE.DC;
+
+North Dakota State, Bison, NDSU, BIG-10, 0A5640, FFC72A, 50, ND, ND.SD.MT;
+
+South Dakota State, Jackrabbits, SDST, BIG-10, 0033A0, FFD100, 56, SD, SD.ND.MT;
+
+Butler, Bulldogs, BUT, Big East, 13294B, 747678, 77, IN, IN;
+
+Creighton, Bluejays, CRE, Big East, 005CA9, 00235D, 77, NE, NE;
+
+Xavier, Musketeers, XAV, Big East, 0C2340, 9EA2A2, 83, OH, OH.KY;
+
+DePaul, Blue Demons, DEP, Big East, 005EB8, E4002B, 60, IL, IL;
+
+Providence, Friars, PROV, Big East, 000000, 8A8D8F, 73, RI, RI.MA.ME;
+
+Seton Hall, Pirates, SETON, Big East, 004488, A2AAAD, 72, NJ, NJ.NY;
+
+St. John’s, Red Storm, STJ, Big East, BA0C2F, A7A8AA, 66, NY, NY.NJ;
+
+Connecticut, Huskies, UCONN, Big East, 000E2F, E4002B, 86, CT, CT.MA.RI;
+
+Georgetown, Hoyas, GTOWN, Big East, 041E42, 8D817B, 79, DC, DC.MD;
+
+Marquette, Eagles, MARQ, Big East, 003366, FFCC00, 69, WI, WI;
+
+Villanova, Wildcats, NOVA, Big East, 00205B, 13B5EA, 90, PA, PA.NY.NJ.DE.MD.DC;
+
+Iona, Gaels, IONA, Big East, 6F2C3F, F2A900, 48, NY, NY;
+
+Vermont, Catamounts, VERM, Big East, 154734, FFC72C, 50, VT, VT.NH;
+
+Drexel, Dragons, DREX, Big East, 00437B, FFDA02, 42, PA, PA.NY;
+
+Bucknell, Bison, BUCK, Big East, E87722, 003865, 36, PA, PA;
+
+Hofstra, Pride, HOFS, Big East, 003591, FDC82F, 42, NY, NY.NJ.PA;
+
+Miami, Hurricanes, MIAMI, Atlantic Coast, 005030, FF671F, 75, FL, FL;
+
+Boston College, Eagles, BC, Atlantic Coast, 98002E, BC9B6A, 65, MA, MA.RI.ME;
+
+Florida State, Seminoles, FSU, Atlantic Coast, 782F40, CEB888, 80, FL, FL;
+
+Clemson, Tigers, CLEM, Atlantic Coast, F56600, 522D80, 75, SC, SC;
+
+Virginia Tech, Hokies, VTECH, Atlantic Coast, 6A2C3E, CF4520, 71, VA, VA;
+
+Pittsburgh, Panthers, PITT, Atlantic Coast, 1C2957, CDB87D, 72, PA, PA.OH.WV;
+
+Virginia, Cavaliers, UVA, Atlantic Coast, 232D4B, F84C1E, 85, VA, VA;
+
+Syracuse, Orange, SYR, Atlantic Coast, D44500, 6F777D, 84, NY, NY;
+
+Georgia Tech, Yellow Jackets, GTECH, Atlantic Coast, B3A369, 003057, 69, GA, GA;
+
+Louisville, Cardinals, LOU, Atlantic Coast, AD0000, 000000, 88, KY, KY.OH;
+
+Wake Forest, Demon Deacons, WAKE, Atlantic Coast, A67F31, 000000, 70, NC, NC;
+
+Duke, Blue Devils, DUKE, Atlantic Coast, 0736A4, FFFFFF, 95, NC, NC.SC;
+
+North Carolina, Tar Heels, UNC, Atlantic Coast, 7BAFD4, FFFFFF, 95, NC, NC.SC;
+
+NC State, Wolfpack, NCST, Atlantic Coast, CC0000, 000000, 76, NC, NC;
+
+Notre Dame, Fighting Irish, NDU, Atlantic Coast, 0C2340, C99700, 80, IN, IN.MI.IL;
+
+Charleston, Cougars, CLSTN, Atlantic Coast, 76232F, 84754E, 53, SC, SC;
+
+Oregon, Ducks, ORE, PAC-12, 62A70F, FEE123, 83, OR, OR;
+
+Oregon State, Beavers, OSU, PAC-12,DC4405, 000000, 58, OR, OR;
+
+Colorado, Buffaloes, COL, PAC-12,CFB87C, 000000, 69, CO, CO;
+
+Utah, Utes, UTAH, PAC-12,CC0000, 808080, 74, UT, UT.WY.ID;
+
+Arizona, Wildcats, ZONA, PAC-12, 003366, CC0033, 90, AZ, AZ;
+
+Arizona State, Sun Devils, ASU, PAC-12, 8C1D40, FFC627, 71, AZ, AZ;
+
+California, Golden Bears, CAL, PAC-12, 003262, FDB515, 67, CA, CA;
+
+UCLA, Bruins, UCLA, PAC-12,2D68C4, F2A900, 86, CA, CA.HI;
+
+USC, Trojans, USC, PAC-12,990000, FFC72C, 82, CA, CA.HI.AK;
+
+Stanford, Cardinal, STAN, PAC-12, 8C1515, 2E2D29, 80, CA, CA.HI;
+
+Washington, Huskies, UW, PAC-12, 4B2E83, B7A57A, 73, WA, WA.AK;
+
+Washington State, Cougars, WSU, PAC-12, 981E32, 5E6A71, 61, WA, WA.AK;
+
+New Mexico State, Aggies, NMSU, PAC-12, 861F41, 97999B, 62, NM, NM.AZ;
+
+UCSB, Gauchos, UCSB, PAC-12, 003660, FEBC11, 51, CA, CA;
+
+UC Irvine, Anteaters, UCIR, PAC-12, 0C2340, FFC72C, 50, CA, CA;
+
+Eastern Washington, Eagles, EWU, PAC-12, A10022, FFFFFF, 40, WA, WA;
+
+Idaho, Vandals, IDAHO, Mountain West, B3A369, 808080, 44, ID, ID.WY;
+
+South Dakota, Coyotes, SD, Mountain West, CD1241, 231F20, 35, SD, SD.ND;
+
+San Diego State, Aztecs, SDSU, Mountain West, A6192E, 000000, 73, CA, CA;
+
+Hawaii, Warriors, HAW, Mountain West, 024731, C8C8C8, 49, HI, HI;
+
+UNLV, Rebels, UNLV, Mountain West, B10202, 666666, 71, NV, NV.ID.UT;
+
+New Mexico, Lobos, NMU, Mountain West, BA0C2F, A7A8AA, 62, NM, NM.AZ;
+
+Utah State, Aggies, UTST, Mountain West, 0F2439, 9D968D, 71, UT, UT.ID.WY;
+
+Montana, Grizzlies, MONT, Mountain West, 5E001D, 8C8E90, 42, MT, MT.ND.SD;
+
+Nevada, Wolfpack, NEV, Mountain West, 003366, 807F84, 68, NV, NV.ID.UT;
+
+Montana State, Bobcats, MTST, Mountain West, 00205B, B9975B, 28, MT, MT;
+
+Boise State, Broncos, BOISE, Mountain West, 0033A0, D64309, 60, ID, ID.MT;
+
+Colorado State, Rams, COST, Mountain West, 1E4D2B, C8C372, 58, CO, CO.WY;
+
+Wyoming, Cowboys, WYOM, Mountain West, FFC425, 492F24, 57, WY, WY.ND.SD.ID;
+
+Air Force, Falcons, AF, Mountain West, 003087, 8A8D8F, 43, CO, CO.SD.ND;
+
+San Jose State, Spartans, SJSU, Mountain West, 0055A2, E5A823, 25, CA, CA;
+
+Fresno State, Bulldogs, FRES, Mountain West, DB0032, 002E6D, 62, CA, CA.NV;
+
+Memphis, Tigers, MEM, American, 003087, 898D8D, 86, TN, TN.KY;
+
+Cincinnati, Bearcats, CINCY, American, E00122, 000000, 83, OH, OH.KY;
+
+Wichita State, Shockers, WSU, American, FFCD00, 000000, 81, KS, NE.KS;
+
+Tulsa, Golden Hurricane, TULSA, American, 002D72, C8102E, 65, OK, OK;
+
+Houston, Cougars, HOU, American, C8102E, FFFFFF, 84, TX, TX;
+
+Southern Methodist, Mustangs, SMU, American, 0033A0, C8102E, 64, TX, TX;
+
+South Florida, Bulls, USF, American, 006747, CFC493, 50, FL, FL;
+
+Austin Peay, Governors, APEAY, American, BA0C2F, 000000, 31, TN, TN;
+
+Longwood, Lancers, LONG, American, 002147, A2A4A3, 29, VA, VA;
+
+Furman, Paladins, FUR, American, 582C83, FFFFFF, 34, SC, SC;
+
+Temple, Owls, TEMP, American, 9D2235, C1C6C8, 67, PA, PA.DE.MD.DC;
+
+Tulane, Green Wave, TUL, American, 006747, 418FDE, 45, LA, LA;
+
+East Carolina, Pirates, ECU, American, 4B2E83, FFFF00, 40, NC, NC.SC;
+
+Winthrop, Eagles, WIN, American, 660000, F0B323, 37, SC, SC;
+
+Northern Kentucky, Norse, NKU, American, FFC72C, 000000, 36, KY, KY;
+
+Liberty, Flames, LIB, American, 990000, 0A254E, 43, VA, VA;
+
+Brigham Young, Cougars, BYU, WCC, 002255, C5AF7D, 74, UT, UT.ID.WY;
+
+Gonzaga, Bulldogs, GONZ, WCC, 041E42, C8102E, 87, WA, WA.AK;
+
+St. Mary’s, Gaels, STMAR, WCC,D80024, 06315B, 75, CA, CA;
+
+Pepperdine, Waves, PEPP, WCC, F58026, 003A72, 46, CA, CA;
+
+Pacific, Tigers, PAC, WCC, F47820, 231F20, 56, CA, CA;
+
+San Francisco, Dons, SF, WCC, FDBB30, 00543C, 58, CA, CA;
+
+San Diego, Toreros, SD, WCC, 002868, 84BCE8, 50, CA, CA;
+
+Santa Clara, Broncos, SCU, WCC, 8C1515, 000000, 54, CA, CA;
+
+Loyola Marymount, Lions, LMU, WCC, B62B3A, 00447C, 39, CA, CA;
+
+Portland, Pilots, PORT, WCC, 4B2E83, FFFFFF, 37, OR, OR;
+
+Seattle, RedHawks, SEA, WCC, BF2E1A, 231F20, 27, WA, WA;
+
+Grand Canyon, Antelopes, GCU, WCC, 522398, 000000, 54, AZ, AZ;
+
+Denver, Pioneers, DEN, WCC, 98002E, AA976C, 26, CO, CO;
+
+Cal Baptist, Lancers, CBPT, WCC, 002554, A37400, 25, CA, CA;
+
+Loyola Marymount, Lions, LMU, WCC, B62B3A, 00447C, 42, CA, CA;
+
+St Thomas, Tommies, STU, WCC, 512773, FFFFFF, 29, MN, MN;
+
+Long Beach State, 49ers, LBSU, Big West, FFC72A, 000000, 45, CA, CA;
+
+Cal State Fullerton, Titans, CSF, Big West, 00274C, DC8218, 34, CA, CA;
+
+Cal State Northridge, Matadors, CSN, Big West, CE1126, D1CEC6, 25, CA, CA;
+
+Weber State, Wildcats, WBST, Big West, 492365, 575047, 38, UT, UT.ID.WY;
+
+Cal Poly, Mustangs, CAPOL, Big West, 003831, B38F4F, 27, CA, CA;
+
+Cal State Bakersfield, Roadrunners, CSB, Big West, 3154A3, FDB913, 29, CA, CA;
+
+Northern Arizona, Lumberjacks, NAU, Big West, 003976, FFD51F, 27, AZ, UT.AZ;
+
+UC Davis, Aggies, UCD, Big West, 002855, B3A369, 25, CA, CA;
+
+Utah Valley, Wolverines, UVU, Big West, 275D38, 000000, 40, UT, UT;
+
+Portland State, Vikings, PORST, Big West, 154734, A5ACAF, 32, OR, OR;
+
+Northern Colorado, Bears, NCO, Big West, 013C65, F6B000, 36, CO, CO;
+
+UC Riverside, Highlanders, UCR, Big West, 2D6CC0, F1AB00, 28, CA, CA;
+
+Idaho State, Bengals, IDST, Big West, FF8400, 000000, 27, ID, ID.WY;
+
+North Dakota, Fighting Hawks, ND, Big West, 0A5640, FFC72A, 26, ND, ND.SD.MT;
+
+Sacramento State, Hornets, SACST, Big West, 043927, C4B581, 25, CA, CA;
+
+Southern Utah, Thunderbirds, SUU, Big West, D12947, 050607, 28, UT, UT.AZ;
+
+Dayton, Flyers, DAYT, A10, CE1141, 004B8D, 75, OH, OH;
+
+VCU, Rams, VCU, A10, FFB300, 000000, 71, VA, VA;
+
+Davidson, Wildcats, DAV, A10, AC1A2F, 000000, 64, NC, NC;
+
+St. Louis, Billikens, SLU, A10, 003DA5, C8C9C7, 62, MO, MO.IL;
+
+St. Joseph’s, Hawks, STJOS, A10, C02427, 0F0708, 60, CT, CT.MA;
+
+Richmond, Spiders, RICH, A10, 000066, 990000, 59, VA, VA;
+
+Rhode Island, Rams, URI, A10, 68ABE8, FFFFFF, 56, RI, RI.MA.ME;
+
+St. Bonaventure, Bonnies, STBON, A10, 54261A, FDB726, 57, NY, NY;
+
+Duquesne, Dukes, DUQ, A10, 041E42, BA0C2F, 40, PA, PA.OH;
+
+La Salle, Explorers, LSL, A10, 003366, FFCC00, 43, PA, PA.NY;
+
+Delaware, Blue Hens, DU, A10, 00539F, FFD200, 33, DE, DE.MD.DC;
+
+Loyola-Chicago, Ramblers, LOY, A10, 922247, FEBD18, 49, IL, IL;
+
+George Mason, Patriots, GMU, A10, 006633, FFCC33, 46, VA, VA.DC;
+
+Rider, Broncs, RIDER, A10, 981E32, 6C6F70, 35, NJ, NJ;
+
+Massachusetts, Minutemen, UMASS, A10, 971B2F, 572932, 50, MA, MA;
+
+Fordham, Rams, FORD, A10, 860038, FFFFFF, 31, NY, NY;
+
+Little Rock, Trojans, LROCK, C-USA, CE181E, F18C21, 37, AR, AR;
+
+UAB, Blazers, UAB, C-USA, 006747, CFC493, 61, AL, AL;
+
+Western Kentucky, Hilltoppers, WKU, C-USA, C60C30, 1E1E1E, 58, KY, KY.TN;
+
+Louisiana-Lafayette, Ragin Cajuns, ULL, C-USA, CE181E, F18C21, 56, LA, LA;
+
+Louisiana Tech, Bulldogs, LTU, C-USA, ED1E24, 000092, 56, LA, LA;
+
+UNC Wilmington, Seahawks, UNCW, C-USA, 003366, 006666, 37, NC, NC.SC;
+
+Charlotte, 49ers, CHA, C-USA, 006747, FFFFFF, 53, NC, NC.SC;
+
+Middle Tennessee State, Blue Raiders, MTSU, C-USA, 0066CC, 000000, 52, TN, TN;
+
+UNC Greensboro, Spartans, UNCG, C-USA, 0F2044, FFB71B, 36, NC, NC;
+
+UTSA, Roadrunners, UTSA, C-USA, F15A22, 0C2340, 25, TX, TX;
+
+Norfolk State, Spartans, NORST, C-USA, 007A53, F3D03E, 30, VA, VA;
+
+Rice, Owls, RICE, C-USA, 00205B, C1C6C8, 33, TX, TX;
+
+Florida Gulf Coast, Eagles, FGCU, C-USA, 007749, 002D72, 28, FL, FL;
+
+Florida Atlantic, Owls, FAU, C-USA, 003366, CC0000, 26, FL, FL;
+
+FIU, Panthers, FIU, C-USA, 00008B, F6B000, 25, FL, FL;
+
+Marshall, Thundering Herd, MARSH, C-USA, 00B140, A2AAAD, 48, WV, WV.PA;
+
+Robert Morris, Colonials, RM, MVC, 14234B, A6192E, 27, PA, PA;
+
+Green Bay, Phoenix, UWGB, MVC, 006747, 9D2235, 39, WI, WI;
+
+Northern Iowa, Panthers, NIOWA, MVC, 4B116F, FFCC00, 68, IA, IA.SD.MO;
+
+Murray State, Racers, MURR, MVC, 002144, ECAC00, 67, KY, KY;
+
+Missouri State, Bears, MOST, MVC, 5E0009, 000000, 60, MO, MO;
+
+Belmont, Bruins, BEL, MVC, 002469, C9262D, 59, TN, TN;
+
+Southern Illinois, Salukis, SIU, MVC, 720000, FFFFFF, 58, IL, IL;
+
+Illinois State, Redbirds, ILST, MVC, CE1126, F9DD16, 55, IL, IL;
+
+Northern Illinois, Huskies, NIU, MVC, BA0C2F, 8A8D8F, 33, IL, IL;
+
+Valparaiso, Crusaders, VAL, MVC, 381E0E, FFCC00, 60, IN, IN;
+
+Bradley, Braves, BRAD, MVC, A50000, 999999, 52, IL, IL;
+
+Indiana State, Sycamores, INST, MVC, 0142BC, FFFFFF, 45, IN, IN;
+
+Drake, Bulldogs, DRAKE, MVC, 004477, 999999, 53, IA, IA.NE;
+
+Evansville, Purple Aces, EVANS, MVC, 4B2E83, FFFF00, 46, MO, MO;
+
+Illinois-Chicago, Flames, UIC, MVC, 002D72, C8102E, 39, IL, IL;
+
+Milwaukee, Panthers, MILW, MVC, FFBD00, CCCCCC, 35, WI, WI;
+
+Purdue Fort Wayne, Mastadons, IPFW, MAC, 002F6C, 63666A, 31, IN, IN;
+
+Detroit-Mercy, Titans, MERCY, MAC, A6093D, 002D72, 43, MI, MI;
+
+Wright State, Raiders, WRIGHT, MAC, 026937, CEA052, 47, OH, OH;
+
+Akron, Zips, AKRON, MAC, 041E42, A89968, 59, OH, OH;
+
+Kent State, Golden Flashes, KENT, MAC, 002144, ECAC00, 57, OH, OH;
+
+Ohio, Bobcats, OHIO, MAC, 00694E, CDA077, 53, OH, OH;
+
+Buffalo, Bulls, BUFF, MAC, 005BBB, FFFFFF, 53, NY, NY.PA;
+
+Toledo, Rockets, TOL, MAC,15397F, FFDA00, 53, OH, OH;
+
+Bowling Green, Falcons, BG, MAC, FE5000, 4F2C1D, 45, OH, OH;
+
+Miami (OH), RedHawks, MIAOH, MAC, B61E2E, 000000, 48, OH, OH;
+
+Oakland, Golden Grizzlies, OAK, MAC, B59A57, 000000, 41, MI, MI;
+
+Central Michigan, Chippewas, CMU, MAC, 6A0032, FFC82E, 35, MI, MI;
+
+Eastern Michigan, Eagles, EMU, MAC, 006633, 000000, 36, MI, MI;
+
+Ball State, Cardinals, BALL, MAC, BA0C2F, 000000, 40, IN, IN;
+
+Western Michigan, Broncos, WMU, MAC, 6C4023, B5A167, 44, MI, MI;
+
+Cleveland State, Vikings, CLE, MAC, 006747, 000000, 36, OH, OH;
+
+Oral Roberts, Golden Eagles, ORU, Sunbelt, 002E70, D39B16, 43, OK, OK;
+
+Old Dominion, Monarchs, ODU, Sunbelt, 003057, 7C878E, 59, VA, VA.DE;
+
+Wofford, Terriers, WOFF, Sunbelt, 886E4C, FFFFFF, 37, SC, SC;
+
+Southern Mississippi, Golden Eagles, USM, Sunbelt, FFAB00, 000000, 57, MS, MS;
+
+Georgia State, Panthers, GAST, Sunbelt, 0039A6, C60C30, 56, GA, GA;
+
+South Alabama, Jaguars, SALAB, Sunbelt, 041E42, C8102E, 40, AL, AL;
+
+Arkansas State, Red Wolves, AKST, Sunbelt, ED1B2E, 231F20, 36, AR, AR;
+
+Appalachian State, Mountaineers, APPST, Sunbelt, 000001, A89968, 34, NC, NC.WV;
+
+Texas State, Bobcats, TXST, Sunbelt, 501214, 6A5638, 31, TX, TX;
+
+James Madison, Dukes, JMU, Sunbelt, 450084, CBB677, 34, VA, VA;
+
+Georgia Southern, Eagles, GSU, Sunbelt, 15396F, FFFFFF, 27, GA, GA;
+
+Coastal Carolina, Chanticleers, CCU, Sunbelt, 006F71, A27752, 26, SC, SC;
+
+Bellarmine, Knights, BLRM, Sunbelt, 6D0017, B2B3B5, 30, KY, KY;
+
+Troy, Trojans, TROY, Sunbelt, 6D0017, B2B3B5, 25, AL, AL;
+
+Louisiana-Munroe, Warhawks, LAM, Sunbelt, 800029, BD955A, 25, LA, LA;
+
+Abilene Christian, Wildcats, ACU, Sunbelt, 4B2E83, B7A57A, 27, TX, TX;
+
+Fairfield, Stags, FRF, Northeastern, C8102E, A2AAAD, 34, CT, CT;
+
+Harvard, Crimson, HARV, Northeastern, A41034, 000000, 49, MA, MA.RI.NY.CT;
+
+Princeton, Tigers, PRINCE, Northeastern, FF671F, 000000, 60, NJ, NJ.NY.MA.CT;
+
+Pennsylvania, Quakers, PENN, Northeastern, 011F5B, 990000, 45, PA, PA.DE.MD.DC;
+
+Yale, Bulldogs, YALE, Northeastern, 00356B, FFFFFF, 37, CT, CT.MA.NY;
+
+Boston University, Terriers, BU, Northeastern, BF2E1A, 000000, 36, MA, MA.NY;
+
+Siena, Saints, SIENA, Northeastern, FFC72C, 006747, 34, NY, NY;
+
+Manhattan, Jaspers, MANH, Northeastern, 041E42, 53565A, 30, NJ, NJ;
+
+Colgate, Raiders, COLG, Northeastern, 821019, E10028, 38, NY, NY;
+
+William & Mary, Tribe, W&M, Northeastern, 115740, B9975B, 40, VA, VA;
+
+Niagara, Purple Eagles, NIA, Northeastern, 582C83, 000000, 34, NY, NY;
+
+St. Peter’s, Peacocks, STPET, Northeastern, 003C71, 0072CE, 28, NJ, NJ;
+
+UMBC, Retrievers, UMBC, Northeastern, FFC20E, 000000, 25, MD, MD.DC;
+
+Navy, Midshipmen, NAVY, Northeastern, 131630, FCBA29, 26, MD, MD.DC;
+
+Maine, Black Bears, ME, Northeastern, 003263, B0D7FF, 34, ME, ME;
+
+Cornell, Big Red, CORN, Northeastern, B31B1B, 5E3920, 42, NY, NY;
